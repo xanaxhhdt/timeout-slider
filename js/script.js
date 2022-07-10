@@ -3,7 +3,7 @@
 const slide = document.querySelectorAll('.slide');
 
 let time = 2000;
-let activeSlide = 3;
+let activeSlide = 0;
 slide[activeSlide].classList.add('slide_active');
 
 function changeSlide() {
@@ -16,6 +16,5 @@ function changeSlide() {
       activeSlide = 0;
       slide[activeSlide].classList.add('slide_active');
    }
-   setTimeout(changeSlide, time);
 }
-changeSlide();
+setTimeout(changeSlide, time);
