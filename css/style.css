@@ -26,6 +26,7 @@ body {
    width: 100%;
    height: 100%;
    opacity: 0;
+   transition: 1s;
 }
 .slide__img {
    width: 100%;
