@@ -17,4 +17,4 @@ function changeSlide() {
       slide[activeSlide].classList.add('slide_active');
    }
 }
-setTimeout(changeSlide, time);
+setInterval(changeSlide, time);
